@@ -1,0 +1,16 @@
+D:\Varcas\Inventory\Inventory.Data\bin\Release\netcoreapp3.1\appsettings.json
+D:\Varcas\Inventory\Inventory.Data\bin\Release\netcoreapp3.1\Inventory.Data.deps.json
+D:\Varcas\Inventory\Inventory.Data\bin\Release\netcoreapp3.1\Inventory.Data.dll
+D:\Varcas\Inventory\Inventory.Data\bin\Release\netcoreapp3.1\Inventory.Data.pdb
+D:\Varcas\Inventory\Inventory.Data\bin\Release\netcoreapp3.1\Inventory.Core.dll
+D:\Varcas\Inventory\Inventory.Data\bin\Release\netcoreapp3.1\Inventory.Dto.dll
+D:\Varcas\Inventory\Inventory.Data\bin\Release\netcoreapp3.1\Inventory.Core.pdb
+D:\Varcas\Inventory\Inventory.Data\bin\Release\netcoreapp3.1\Inventory.Dto.pdb
+D:\Varcas\Inventory\Inventory.Data\obj\Release\netcoreapp3.1\Inventory.Data.csproj.AssemblyReference.cache
+D:\Varcas\Inventory\Inventory.Data\obj\Release\netcoreapp3.1\Inventory.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Varcas\Inventory\Inventory.Data\obj\Release\netcoreapp3.1\Inventory.Data.AssemblyInfoInputs.cache
+D:\Varcas\Inventory\Inventory.Data\obj\Release\netcoreapp3.1\Inventory.Data.AssemblyInfo.cs
+D:\Varcas\Inventory\Inventory.Data\obj\Release\netcoreapp3.1\Inventory.Data.csproj.CoreCompileInputs.cache
+D:\Varcas\Inventory\Inventory.Data\obj\Release\netcoreapp3.1\Inventory.Data.csproj.CopyComplete
+D:\Varcas\Inventory\Inventory.Data\obj\Release\netcoreapp3.1\Inventory.Data.dll
+D:\Varcas\Inventory\Inventory.Data\obj\Release\netcoreapp3.1\Inventory.Data.pdb

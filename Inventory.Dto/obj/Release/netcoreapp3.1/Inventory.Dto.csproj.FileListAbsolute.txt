@@ -1,0 +1,14 @@
+D:\Varcas\Inventory\Inventory.Dto\bin\Release\netcoreapp3.1\appsettings.json
+D:\Varcas\Inventory\Inventory.Dto\bin\Release\netcoreapp3.1\Inventory.Dto.deps.json
+D:\Varcas\Inventory\Inventory.Dto\bin\Release\netcoreapp3.1\Inventory.Dto.runtimeconfig.json
+D:\Varcas\Inventory\Inventory.Dto\bin\Release\netcoreapp3.1\Inventory.Dto.runtimeconfig.dev.json
+D:\Varcas\Inventory\Inventory.Dto\bin\Release\netcoreapp3.1\Inventory.Dto.dll
+D:\Varcas\Inventory\Inventory.Dto\bin\Release\netcoreapp3.1\Inventory.Dto.pdb
+D:\Varcas\Inventory\Inventory.Dto\obj\Release\netcoreapp3.1\Inventory.Dto.csproj.AssemblyReference.cache
+D:\Varcas\Inventory\Inventory.Dto\obj\Release\netcoreapp3.1\Inventory.Dto.GeneratedMSBuildEditorConfig.editorconfig
+D:\Varcas\Inventory\Inventory.Dto\obj\Release\netcoreapp3.1\Inventory.Dto.AssemblyInfoInputs.cache
+D:\Varcas\Inventory\Inventory.Dto\obj\Release\netcoreapp3.1\Inventory.Dto.AssemblyInfo.cs
+D:\Varcas\Inventory\Inventory.Dto\obj\Release\netcoreapp3.1\Inventory.Dto.csproj.CoreCompileInputs.cache
+D:\Varcas\Inventory\Inventory.Dto\obj\Release\netcoreapp3.1\Inventory.Dto.dll
+D:\Varcas\Inventory\Inventory.Dto\obj\Release\netcoreapp3.1\Inventory.Dto.pdb
+D:\Varcas\Inventory\Inventory.Dto\obj\Release\netcoreapp3.1\Inventory.Dto.genruntimeconfig.cache

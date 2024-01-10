@@ -1,0 +1,658 @@
+﻿
+
+ 
+	<body>
+		
+	
+	
+		 
+		<!-- Main Wrapper -->
+        <div class="main-wrapper">
+			
+			
+			<div class="page-wrapper">
+				<div class="content">
+					<div class="page-header">
+						<div class="page-title">
+							<h4>User List</h4>
+							<h6>Manage your User</h6>
+						</div>
+						<div class="page-btn">
+							<a asp-action="NewUser" asp-controller="UserManagement" class="btn btn-added"><img src="~/img/icons/plus.svg" alt="img"/>Add User</a>
+						</div>
+					</div>
+				
+					<!-- /product list -->
+					<div class="card">
+						<div class="card-body">
+							<div class="table-top">
+								<div class="search-set">
+									<div class="search-path">
+										<a class="btn btn-filter" id="filter_search">
+											<img src="~/img/icons/filter.svg" alt="img"/>
+											<span><img src="~/img/icons/closes.svg" alt="img"/></span>
+										</a>
+									</div>
+									<div class="search-input">
+										<a class="btn btn-searchset"><img src="~/img/icons/search-white.svg" alt="img"/></a>
+									</div>
+								</div>
+								<div class="wordset">
+									<ul>
+										<li>
+											<a data-bs-toggle="tooltip" data-bs-placement="top" title="pdf"><img src="~/img/icons/pdf.svg" alt="img"/></a>
+										</li>
+										<li>
+											<a data-bs-toggle="tooltip" data-bs-placement="top" title="excel"><img src="~/img/icons/excel.svg" alt="img"/></a>
+										</li>
+										<li>
+											<a data-bs-toggle="tooltip" data-bs-placement="top" title="print"><img src="~/img/icons/printer.svg" alt="img"/></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<!-- /Filter -->
+							<div class="card" id="filter_inputs">
+								<div class="card-body pb-0">
+									<div class="row">
+										<div class="col-lg-2 col-sm-6 col-12">
+											<div class="form-group">
+												<input type="text" placeholder="Enter User Name">
+											</div>
+										</div>
+										<div class="col-lg-2 col-sm-6 col-12">
+											<div class="form-group">
+												<input type="text" placeholder="Enter Phone">
+											</div>
+										</div>
+										<div class="col-lg-2 col-sm-6 col-12">
+											<div class="form-group">
+												<input type="text" placeholder="Enter Email">
+											</div>
+										</div>
+										<div class="col-lg-2 col-sm-6 col-12">
+											<div class="form-group">
+												<input type="text" class="datetimepicker cal-icon" placeholder="Choose Date">
+											</div>
+										</div>
+										<div class="col-lg-2 col-sm-6 col-12">
+											<div class="form-group">
+												<select class="select">
+													<option>Disable</option>
+													<option>Enable</option>
+												</select>
+											</div>
+										</div>
+										<div class="col-lg-1 col-sm-6 col-12 ms-auto">
+											<div class="form-group">
+												<a class="btn btn-filters ms-auto"><img src="~/img/icons/search-whites.svg" alt="img"/></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /Filter -->
+							<div class="table-responsive">
+								<table class="table  datanew">
+									<thead>
+										<tr>
+											<th>
+												<label class="checkboxs">
+													<input type="checkbox">
+													<span class="checkmarks"></span>
+												</label>
+											</th>
+											<th>User name </th>
+											<th>Phone</th>
+											<th>email</th>
+											<th>Role</th>
+											<th>Created On</th>
+											<th>Status</th>
+											<th>Action</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>
+												<label class="checkboxs">
+													<input type="checkbox">
+													<span class="checkmarks"></span>
+												</label>
+											</td>
+											<td>Thomas</td>
+											<td>+12163547758  </td>
+											<td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="8afee2e5e7ebf9caeff2ebe7fae6efa4e9e5e7">[email&#160;protected]</a> </td>
+											<td>Admin </td>
+											<td>3/15/2022</td>
+											<td><span class="bg-lightgreen badges">Active</span></td>
+											<td>
+												  
+												<a class="me-3" asp-action="Newuseredit" asp-controller="UserManagement">
+													<img src="~/img/icons/edit.svg" alt="img"/>
+												</a>
+												<a class="me-3 confirm-text" href="javascript:void(0);">
+													<img src="~/img/icons/delete.svg" alt="img"/>
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<label class="checkboxs">
+													<input type="checkbox">
+													<span class="checkmarks"></span>
+												</label>
+											</td>
+											<td>504Benjamin</td>
+											<td>123-456-888</td>
+											<td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="1f7c6a6c6b70727a6d5f7a677e726f737a317c7072">[email&#160;protected]</a></td>
+											<td>Manager </td>
+											<td>2/27/2022</td>
+											<td><span class="bg-lightred badges">Restricted</span></td>
+											<td>
+												  
+												<a class="me-3" asp-action="Newuseredit" asp-controller="UserManagement">
+													<img src="~/img/icons/edit.svg" alt="img"/>
+												</a>
+												<a class="me-3 confirm-text" href="javascript:void(0);">
+													<img src="~/img/icons/delete.svg" alt="img"/>
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<label class="checkboxs">
+													<input type="checkbox">
+													<span class="checkmarks"></span>
+												</label>
+											</td>
+											<td>James 524</td>
+											<td>+12163547758 </td>
+											<td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="1e747f737b6d5e7b667f736e727b307d7173">[email&#160;protected]</a></td>
+											<td>Salesman </td>
+											<td>2/27/2022</td>
+											<td><span class="bg-lightred badges">Restricted</span></td>
+											<td>
+												  
+												<a class="me-3" asp-action="Newuseredit" asp-controller="UserManagement">
+													<img src="~/img/icons/edit.svg" alt="img"/>
+												</a>
+												<a class="me-3 confirm-text" href="javascript:void(0);">
+													<img src="~/img/icons/delete.svg" alt="img"/>
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<label class="checkboxs">
+													<input type="checkbox">
+													<span class="checkmarks"></span>
+												</label>
+											</td>
+											<td>James 524</td>
+											<td>+12163547758 </td>
+											<td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="ddb7bcb0b8ae9db8a5bcb0adb1b8f3beb2b0">[email&#160;protected]</a></td>
+											<td>Salesman </td>
+											<td>2/27/2022</td>
+											<td><span class="bg-lightred badges">Restricted</span></td>
+											<td>
+												  
+												<a class="me-3" asp-action="Newuseredit" asp-controller="UserManagement">
+													<img src="~/img/icons/edit.svg" alt="img"/>
+												</a>
+												<a class="me-3 confirm-text" href="javascript:void(0);">
+													<img src="~/img/icons/delete.svg" alt="img"/>
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<label class="checkboxs">
+													<input type="checkbox">
+													<span class="checkmarks"></span>
+												</label>
+											</td>
+											<td>Bruklin2022</td>
+											<td>123-456-888</td>
+											<td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="690b1b1c02050007290c11080419050c470a0604">[email&#160;protected]</a></td>
+											<td>Delivery Biker </td>
+											<td>2/27/2022</td>
+											<td><span class="bg-lightgreen badges">Active</span></td>
+											<td>
+												  
+												<a class="me-3" asp-action="Newuseredit" asp-controller="UserManagement">
+													<img src="~/img/icons/edit.svg" alt="img"/>
+												</a>
+												<a class="me-3 confirm-text" href="javascript:void(0);">
+													<img src="~/img/icons/delete.svg" alt="img"/>
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<label class="checkboxs">
+													<input type="checkbox">
+													<span class="checkmarks"></span>
+												</label>
+											</td>
+											<td>BeverlyWIN25</td>
+											<td>+12163547758 </td>
+											<td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="761404031d1a1f1836130e171b061a135815191b">[email&#160;protected]</a></td>
+											<td>Delivery Biker </td>
+											<td>2/27/2022</td>
+											<td><span class="bg-lightgreen badges">Active</span></td>
+											<td>
+												  
+												<a class="me-3" asp-action="Newuseredit" asp-controller="UserManagement">
+													<img src="~/img/icons/edit.svg" alt="img"/>
+												</a>
+												<a class="me-3 confirm-text" href="javascript:void(0);">
+													<img src="~/img/icons/delete.svg" alt="img"/>
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<label class="checkboxs">
+													<input type="checkbox">
+													<span class="checkmarks"></span>
+												</label>
+											</td>
+											<td>BHR256</td>
+											<td>123-456-888</td>
+											<td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="2d65584f485f6d48554c405d4148034e4240">[email&#160;protected]</a></td>
+											<td>Sales Executive</td>
+											<td>3/15/2022</td>
+											<td><span class="bg-lightgreen badges">Active</span></td>
+											<td>
+												  
+												<a class="me-3" asp-action="Newuseredit" asp-controller="UserManagement">
+													<img src="~/img/icons/edit.svg" alt="img"/>
+												</a>
+												<a class="me-3 confirm-text" href="javascript:void(0);">
+													<img src="~/img/icons/delete.svg" alt="img"/>
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<label class="checkboxs">
+													<input type="checkbox">
+													<span class="checkmarks"></span>
+												</label>
+											</td>
+											<td>Thomas</td>
+											<td>+12163547758  </td>
+											<td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a5d1cdcac8c4d6e5c0ddc4c8d5c9c08bc6cac8">[email&#160;protected]</a> </td>
+											<td>Admin </td>
+											<td>3/15/2022</td>
+											<td><span class="bg-lightgreen badges">Active</span></td>
+											<td>
+												  
+												<a class="me-3" asp-action="Newuseredit" asp-controller="UserManagement">
+													<img src="~/img/icons/edit.svg" alt="img"/>
+												</a>
+												<a class="me-3 confirm-text" href="javascript:void(0);">
+													<img src="~/img/icons/delete.svg" alt="img"/>
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<label class="checkboxs">
+													<input type="checkbox">
+													<span class="checkmarks"></span>
+												</label>
+											</td>
+											<td>504Benjamin</td>
+											<td>123-456-888</td>
+											<td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="9af9efe9eef5f7ffe8daffe2fbf7eaf6ffb4f9f5f7">[email&#160;protected]</a></td>
+											<td>Manager </td>
+											<td>2/27/2022</td>
+											<td><span class="bg-lightred badges">Restricted</span></td>
+											<td>
+												  
+												<a class="me-3" asp-action="Newuseredit" asp-controller="UserManagement">
+													<img src="~/img/icons/edit.svg" alt="img"/>
+												</a>
+												<a class="me-3 confirm-text" href="javascript:void(0);">
+													<img src="~/img/icons/delete.svg" alt="img"/>
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<label class="checkboxs">
+													<input type="checkbox">
+													<span class="checkmarks"></span>
+												</label>
+											</td>
+											<td>James 524</td>
+											<td>+12163547758 </td>
+											<td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="9ef4fff3fbeddefbe6fff3eef2fbb0fdf1f3">[email&#160;protected]</a></td>
+											<td>Salesman </td>
+											<td>2/27/2022</td>
+											<td><span class="bg-lightred badges">Restricted</span></td>
+											<td>
+												  
+												<a class="me-3" asp-action="Newuseredit" asp-controller="UserManagement">
+													<img src="~/img/icons/edit.svg" alt="img"/>
+												</a>
+												<a class="me-3 confirm-text" href="javascript:void(0);">
+													<img src="~/img/icons/delete.svg" alt="img"/>
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<label class="checkboxs">
+													<input type="checkbox">
+													<span class="checkmarks"></span>
+												</label>
+											</td>
+											<td>James 524</td>
+											<td>+12163547758 </td>
+											<td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="513b303c3422113429303c213d347f323e3c">[email&#160;protected]</a></td>
+											<td>Salesman </td>
+											<td>2/27/2022</td>
+											<td><span class="bg-lightred badges">Restricted</span></td>
+											<td>
+												  
+												<a class="me-3" asp-action="Newuseredit" asp-controller="UserManagement">
+													<img src="~/img/icons/edit.svg" alt="img"/>
+												</a>
+												<a class="me-3 confirm-text" href="javascript:void(0);">
+													<img src="~/img/icons/delete.svg" alt="img"/>
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<label class="checkboxs">
+													<input type="checkbox">
+													<span class="checkmarks"></span>
+												</label>
+											</td>
+											<td>Bruklin2022</td>
+											<td>123-456-888</td>
+											<td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="85e7f7f0eee9ecebc5e0fde4e8f5e9e0abe6eae8">[email&#160;protected]</a></td>
+											<td>Delivery Biker </td>
+											<td>2/27/2022</td>
+											<td><span class="bg-lightgreen badges">Active</span></td>
+											<td>
+												  
+												<a class="me-3" asp-action="Newuseredit" asp-controller="UserManagement">
+													<img src="~/img/icons/edit.svg" alt="img"/>
+												</a>
+												<a class="me-3 confirm-text" href="javascript:void(0);">
+													<img src="~/img/icons/delete.svg" alt="img"/>
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<label class="checkboxs">
+													<input type="checkbox">
+													<span class="checkmarks"></span>
+												</label>
+											</td>
+											<td>BeverlyWIN25</td>
+											<td>+12163547758 </td>
+											<td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a1c3d3d4cacdc8cfe1c4d9c0ccd1cdc48fc2cecc">[email&#160;protected]</a></td>
+											<td>Delivery Biker </td>
+											<td>2/27/2022</td>
+											<td><span class="bg-lightgreen badges">Active</span></td>
+											<td>
+												  
+												<a class="me-3" asp-action="Newuseredit" asp-controller="UserManagement">
+													<img src="~/img/icons/edit.svg" alt="img"/>
+												</a>
+												<a class="me-3 confirm-text" href="javascript:void(0);">
+													<img src="~/img/icons/delete.svg" alt="img"/>
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<label class="checkboxs">
+													<input type="checkbox">
+													<span class="checkmarks"></span>
+												</label>
+											</td>
+											<td>BHR256</td>
+											<td>123-456-888</td>
+											<td><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="044c7166617644617c65697468612a676b69">[email&#160;protected]</a></td>
+											<td>Sales Executive</td>
+											<td>3/15/2022</td>
+											<td><span class="bg-lightgreen badges">Active</span></td>
+											<td>
+												  
+												<a class="me-3" asp-action="Newuseredit" asp-controller="UserManagement">
+													<img src="~/img/icons/edit.svg" alt="img"/>
+												</a>
+												<a class="me-3 confirm-text" href="javascript:void(0);">
+													<img src="~/img/icons/delete.svg" alt="img"/>
+												</a>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+					<!-- /product list -->
+				</div>
+			</div>
+        </div>
+		<!-- /Main Wrapper -->
+
+		<!-- show payment Modal -->
+		<div class="modal fade" id="showpayment" tabindex="-1" aria-labelledby="showpayment" aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">Show Payments</h5>
+						<button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+					</div>
+					<div class="modal-body">
+						<div class="table-responsive">
+							<table class="table">
+								<thead>
+									<tr>
+										<th>Date</th>
+										<th>Reference</th>
+										<th>Amount	</th>
+										<th>Paid By	</th>
+										<th>Paid By	</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr class="bor-b1">
+										<td>2022-03-07	</td>
+										<td>INV/SL0101</td>
+										<td>$ 1500.00	</td>
+										<td>Cash</td>
+										<td>
+											<a class="me-2" href="javascript:void(0);">
+												<img src="~/img/icons/printer.svg" alt="img"/>
+											</a>
+											<a class="me-2" href="javascript:void(0);" data-bs-target="#editpayment" data-bs-toggle="modal" data-bs-dismiss="modal">
+												<img src="~/img/icons/edit.svg" alt="img"/>
+											</a>
+											<a class="me-2 confirm-text" href="javascript:void(0);">
+												<img src="~/img/icons/delete.svg" alt="img"/>
+											</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- show payment Modal -->
+
+		<!-- show payment Modal -->
+		<div class="modal fade" id="createpayment" tabindex="-1" aria-labelledby="createpayment" aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">Create Payment</h5>
+						<button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-lg-6 col-sm-12 col-12">
+								<div class="form-group">
+									<label>Customer</label>
+									<div class="input-group">
+										<input type="text" value="2022-03-07" class="datetimepicker">
+										<a class="scanner-set input-group-text">
+											<img src="~/img/icons/datepicker.svg" alt="img"/>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-sm-12 col-12">
+								<div class="form-group">
+									<label>Reference</label>
+									<input type="text" value="INV/SL0101">
+								</div>
+							</div>
+							<div class="col-lg-6 col-sm-12 col-12">
+								<div class="form-group">
+									<label>Received Amount</label>
+									<input type="text" value="1500.00">
+								</div>
+							</div>
+							<div class="col-lg-6 col-sm-12 col-12">
+								<div class="form-group">
+									<label>Paying Amount</label>
+									<input type="text" value="1500.00">
+								</div>
+							</div>
+							<div class="col-lg-6 col-sm-12 col-12">
+								<div class="form-group">
+									<label>Payment type</label>
+									<select class="select">
+										<option>Cash</option>
+										<option>Online</option>
+										<option>Inprogress</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-lg-12">
+								<div class="form-group">
+									<label>Note</label>
+									<textarea class="form-control"></textarea>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-submit">Submit</button>
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- show payment Modal -->
+
+		<!-- edit payment Modal -->
+		<div class="modal fade" id="editpayment" tabindex="-1" aria-labelledby="editpayment" aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">Edit Payment</h5>
+						<button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-lg-6 col-sm-12 col-12">
+								<div class="form-group">
+									<label>Customer</label>
+									<div class="input-group">
+										<input type="text" value="2022-03-07" class="datetimepicker">
+										<a class="scanner-set input-group-text">
+											<img src="~/img/icons/datepicker.svg" alt="img"/>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-sm-12 col-12">
+								<div class="form-group">
+									<label>Reference</label>
+									<input type="text" value="INV/SL0101">
+								</div>
+							</div>
+							<div class="col-lg-6 col-sm-12 col-12">
+								<div class="form-group">
+									<label>Received Amount</label>
+									<input type="text" value="1500.00">
+								</div>
+							</div>
+							<div class="col-lg-6 col-sm-12 col-12">
+								<div class="form-group">
+									<label>Paying Amount</label>
+									<input type="text" value="1500.00">
+								</div>
+							</div>
+							<div class="col-lg-6 col-sm-12 col-12">
+								<div class="form-group">
+									<label>Payment type</label>
+									<select class="select">
+										<option>Cash</option>
+										<option>Online</option>
+										<option>Inprogress</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-lg-12">
+								<div class="form-group">
+									<label>Note</label>
+									<textarea class="form-control"></textarea>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-submit">Submit</button>
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- edit payment Modal -->
+
+		 
+		<!-- jQuery -->
+        <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="~/js/jquery-3.6.0.min.js"></script>
+
+        <!-- Feather Icon JS -->
+		<script src="~/js/feather.min.js"></script>
+
+		<!-- Slimscroll JS -->
+		<script src="~/js/jquery.slimscroll.min.js"></script>
+
+		<!-- Datatable JS -->
+		<script src="~/js/jquery.dataTables.min.js"></script>
+		<script src="~/js/dataTables.bootstrap4.min.js"></script>
+		
+		<!-- Bootstrap Core JS -->
+        <script src="~/js/bootstrap.bundle.min.js"></script>
+
+		<!-- Select2 JS -->
+		<script src="~/plugins/select2/js/select2.min.js"></script>
+
+		<!-- Datetimepicker JS -->
+		<script src="~/js/moment.min.js"></script>
+		<script src="~/js/bootstrap-datetimepicker.min.js"></script>
+
+		<!-- Sweetalert 2 -->
+		<script src="~/plugins/sweetalert/sweetalert2.all.min.js"></script>
+		<script src="~/plugins/sweetalert/sweetalerts.min.js"></script>
+
+		<!-- Custom JS -->
+		<script src="~/js/script.js"></script>
+		
+    </body>

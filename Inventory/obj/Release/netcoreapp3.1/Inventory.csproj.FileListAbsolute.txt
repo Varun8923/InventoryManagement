@@ -1,0 +1,8 @@
+D:\Varcas\Inventory\Inventory\obj\Release\netcoreapp3.1\Inventory.csproj.AssemblyReference.cache
+D:\Varcas\Inventory\Inventory\obj\Release\netcoreapp3.1\Inventory.GeneratedMSBuildEditorConfig.editorconfig
+D:\Varcas\Inventory\Inventory\obj\Release\netcoreapp3.1\Inventory.AssemblyInfoInputs.cache
+D:\Varcas\Inventory\Inventory\obj\Release\netcoreapp3.1\Inventory.AssemblyInfo.cs
+D:\Varcas\Inventory\Inventory\obj\Release\netcoreapp3.1\Inventory.csproj.CoreCompileInputs.cache
+D:\Varcas\Inventory\Inventory\obj\Release\netcoreapp3.1\Inventory.MvcApplicationPartsAssemblyInfo.cache
+D:\Varcas\Inventory\Inventory\obj\Release\netcoreapp3.1\Inventory.RazorAssemblyInfo.cache
+D:\Varcas\Inventory\Inventory\obj\Release\netcoreapp3.1\Inventory.RazorAssemblyInfo.cs

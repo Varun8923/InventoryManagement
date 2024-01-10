@@ -1,0 +1,10 @@
+D:\Varcas\Inventory\Inventory.Core\bin\Release\netcoreapp3.1\Inventory.Core.deps.json
+D:\Varcas\Inventory\Inventory.Core\bin\Release\netcoreapp3.1\Inventory.Core.dll
+D:\Varcas\Inventory\Inventory.Core\bin\Release\netcoreapp3.1\Inventory.Core.pdb
+D:\Varcas\Inventory\Inventory.Core\obj\Release\netcoreapp3.1\Inventory.Core.csproj.AssemblyReference.cache
+D:\Varcas\Inventory\Inventory.Core\obj\Release\netcoreapp3.1\Inventory.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Varcas\Inventory\Inventory.Core\obj\Release\netcoreapp3.1\Inventory.Core.AssemblyInfoInputs.cache
+D:\Varcas\Inventory\Inventory.Core\obj\Release\netcoreapp3.1\Inventory.Core.AssemblyInfo.cs
+D:\Varcas\Inventory\Inventory.Core\obj\Release\netcoreapp3.1\Inventory.Core.csproj.CoreCompileInputs.cache
+D:\Varcas\Inventory\Inventory.Core\obj\Release\netcoreapp3.1\Inventory.Core.dll
+D:\Varcas\Inventory\Inventory.Core\obj\Release\netcoreapp3.1\Inventory.Core.pdb
